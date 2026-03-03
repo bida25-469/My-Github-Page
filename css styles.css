@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, sans-serif;
+    color: #3498db;
+    background-color: #808080;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6
+}
+header{
+    background-color: #3498db;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+}
+nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin:0 10px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+main{
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+main img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+footer{
+    background-color: #80808080;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+p{
+    font-size: 1.1em;
+}
+a{
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+img{
+    border: 5px solid #3498db;
+    border-radius: 10px;
+}
+main a[href^="bida25-469"] {
+    color: #3498db;
+    font-weight: bold;
+}
